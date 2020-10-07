@@ -111,7 +111,17 @@ function evaluate(n1, n2) {
       answer = f / s;
       break;
     case "%":
-      answer = Math.floor(f % s);
+      if (f < 1 && f >= 0) {
+        answer = f;
+      } else {
+        let d = n1.indexOf(".");
+        if (d != -1) {
+          let no_of_dec = n1.length - (d + 1);
+          answer = (f % s).toFixed(no_of_dec);
+        } else {
+          answer = (f % s);
+        }
+      }
       break;
     default:
       answer = $res.value;
