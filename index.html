@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Calculator</title>
     <link rel="stylesheet" href="./css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <script defer src="./src/script.js"></script>
@@ -14,33 +18,31 @@
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
       crossorigin="anonymous"
     ></script>
-    <div class="calculator">
-      <form method="POST" id="calc-form">
-        <input type="text" class="result" id="result" value="0" />
-        <button type="button" class="num" id="num1">1</button>
-        <button type="button" class="num" id="num2">2</button>
-        <button type="button" class="num" id="num3">3</button>
-        <button type="button" class="op" id="add">+</button>
-        <br />
-        <button type="button" class="num" id="num4">4</button>
-        <button type="button" class="num" id="num5">5</button>
-        <button type="button" class="num" id="num6">6</button>
-        <button type="button" class="op" id="sub">-</button>
-        <br />
-        <button type="button" class="num" id="num7">7</button>
-        <button type="button" class="num" id="num8">8</button>
-        <button type="button" class="num" id="num9">9</button>
-        <button type="button" class="op" id="mul">&times;</button>
-        <br />
-        <button type="button" class="dec" id="dec">.</button>
-        <button type="button" class="num" id="num0">0</button>
-        <button type="button" class="clear" id="clr">C</button>
-        <button type="button" class="op" id="div">÷</button>
-        <br />
-        <button type="button" class="equal" id="equal">=</button>
-        <button type="button" class="del" id="del">DEL</button>
-        <button type="button" class="op" id="mod">%</button>
-      </form>
-    </div>
+    <form method="POST" id="calc-form">
+      <input type="text" class="result" id="result" value="0" />
+      <button type="button" class="num" id="num1">1</button>
+      <button type="button" class="num" id="num2">2</button>
+      <button type="button" class="num" id="num3">3</button>
+      <button type="button" class="op" id="add">+</button>
+      <br />
+      <button type="button" class="num" id="num4">4</button>
+      <button type="button" class="num" id="num5">5</button>
+      <button type="button" class="num" id="num6">6</button>
+      <button type="button" class="op" id="sub">-</button>
+      <br />
+      <button type="button" class="num" id="num7">7</button>
+      <button type="button" class="num" id="num8">8</button>
+      <button type="button" class="num" id="num9">9</button>
+      <button type="button" class="op" id="mul">&times;</button>
+      <br />
+      <button type="button" class="dec" id="dec">.</button>
+      <button type="button" class="num" id="num0">0</button>
+      <button type="button" class="clear" id="clr">C</button>
+      <button type="button" class="op" id="div">÷</button>
+      <br />
+      <button type="button" class="equal" id="equal">=</button>
+      <button type="button" class="del" id="del">DEL</button>
+      <button type="button" class="op" id="mod">%</button>
+    </form>
   </body>
 </html>
