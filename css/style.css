@@ -1,6 +1,6 @@
 #calc-form {
   margin: 3%;
-  width: 220px;
+  width: 215px;
   height: 50%;
   border: 1px darkgrey solid;
   background-color: black; /* rgba(0, 0, 0, 0.5);*/
@@ -15,7 +15,7 @@
   background-color: rgb(46, 48, 48);
   color: aliceblue;
   height: 40px;
-  width: 213.5px;
+  width: 210px;
   margin-top: 2px;
   margin-bottom: 1px;
   border: 0px;
