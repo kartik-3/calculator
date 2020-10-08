@@ -1,29 +1,3 @@
-const charset = document.createElement("meta");
-charset.setAttribute("charset", "UTF-8");
-document.head.appendChild(charset);
-
-const name = document.createElement("meta");
-name.setAttribute("name", "viewport");
-name.setAttribute("content", "width=device-width, initial-scale=1.0");
-document.head.appendChild(name);
-
-const title = document.createElement("title");
-title.innerText = "Calculator";
-document.head.appendChild(title);
-
-const stylesheet = document.createElement("link");
-stylesheet.setAttribute("rel", "stylesheet");
-stylesheet.setAttribute("href", "./css/style.css");
-document.head.appendChild(stylesheet);
-
-const font_stylesheet = document.createElement("link");
-font_stylesheet.setAttribute("rel", "stylesheet");
-font_stylesheet.setAttribute(
-  "href",
-  "https://fonts.googleapis.com/css2?family=Roboto&display=swap"
-);
-document.head.appendChild(font_stylesheet);
-
 const calc_form = document.createElement("form");
 calc_form.setAttribute("method", "POST");
 calc_form.setAttribute("id", "calc-form");
